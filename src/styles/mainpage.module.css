@@ -1,0 +1,17 @@
+.title {
+  font-family: Poppin;
+  max-width: 500px;
+  font-size: xxx-large;
+  color: #feb048;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.p {
+  font-family: MagicRetro;
+  max-width: 680px;
+  font-size: x-large;
+  color: #f4efd3;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}

@@ -6,6 +6,16 @@ export const authRouter = createTRPCRouter({
     const types = await ctx.prisma.userType.findMany({});
     return types;
   }),
+  getUserTypeById: publicProcedure
+    .input(z.object({ id: z.string() }))
+    .query(async ({ ctx, input }) => {
+      const type = await ctx.prisma.userType.findUnique({
+        where: {
+          id: input.id,
+        },
+      });
+      return type;
+    }),
   register: publicProcedure
     .input(
       z.object({

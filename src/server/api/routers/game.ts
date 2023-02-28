@@ -1,4 +1,5 @@
 import { createTRPCRouter, publicProcedure } from "../trpc";
+import {z} from "zod";
 
 export const gameRouter = createTRPCRouter({
   getGames: publicProcedure.query(async ({ ctx }) => {
@@ -9,4 +10,17 @@ export const gameRouter = createTRPCRouter({
     });
     return games;
   }),
+  getGame: publicProcedure
+    .input(z.object({ id: z.string() }))
+    .query(async ({ ctx, input }) => {
+      const game = await ctx.prisma.game.findUnique({
+        where: {
+          id: input.id,
+        },
+        include: {
+          paymentInfos: true,
+        },
+      });
+      return game;
+    }),
 });

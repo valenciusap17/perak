@@ -1,0 +1,61 @@
+.title {
+  font-family: Poppin;
+  max-width: 1000px;
+  font-size: xxx-large;
+  color: #feb048;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.subtitle {
+  font-family: MagicRetro;
+  max-width: 680px;
+  font-size: x-large;
+  color: #f4efd3;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.paragraf {
+  font-family: Poppin;
+  max-width: 490px;
+  font-size: large;
+  color: #f4efd3;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.subparagraf {
+  font-family: PoppinReg;
+  max-width: 500px;
+  font-size: medium;
+  color: #f4efd3;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.sub2paragraf {
+  font-family: PoppinReg;
+  max-width: 500px;
+  font-size: small;
+  color: #f4efd3;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.alert {
+  font-family: PoppinReg;
+  max-width: 500px;
+  font-size: small;
+  color: #fb0606;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.alertTitle {
+  font-family: Poppin;
+  max-width: 1000px;
+  font-size: x-large;
+  color: #feb048;
+
+}

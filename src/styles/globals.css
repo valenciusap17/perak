@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "MagicRetro";
+  src: url("../../public/magic-retro.ttf");
+}
+
+@font-face {
+  font-family: "Poppin";
+  src: url("../../public/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: "PoppinReg";
+  src: url("../../public/Poppins-Regular.ttf");
+}
+
+body {
+  background-color: #272b52;
+  z-index: 0;
+}
