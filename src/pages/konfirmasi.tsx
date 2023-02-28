@@ -39,6 +39,7 @@ const Konfirmasi: NextPage = () => {
     <div className="">
 
       <div className="px-16 pt-20 overflow-x-hidden">
+      <Third/>
         <div className={styles.title}>Pendaftaran Games Individual</div>
         <div className={`${styles.subtitle} my-[-14px]`}>
           {getGames.data?.name}
@@ -70,7 +71,7 @@ const Konfirmasi: NextPage = () => {
             <div className={`truncate ${styles.name}`}>
               {router.query["namalengkap"]}
             </div>
-            <div className={styles.nickname}>
+            <div className={`truncate ${styles.nickname}`}>
               {router.query["namapanggilan"]} - {getUserType.data?.name}
             </div>
             {/* <div className=""></div> */}
@@ -103,7 +104,6 @@ const Konfirmasi: NextPage = () => {
           Daftar games lain
         </button>
       </div>
-      <Third/>
     </div>
   );
 };

@@ -4,17 +4,17 @@
 
 @font-face {
   font-family: "MagicRetro";
-  src: url("../../public/magic-retro.ttf");
+  src: url("../../public/fontText/magic-retro.ttf");
 }
 
 @font-face {
   font-family: "Poppin";
-  src: url("../../public/Poppins-Bold.ttf");
+  src: url("../../public/fontText/Poppins-Bold.ttf");
 }
 
 @font-face {
   font-family: "PoppinReg";
-  src: url("../../public/Poppins-Regular.ttf");
+  src: url("../../public/fontText/Poppins-Regular.ttf");
 }
 
 body {

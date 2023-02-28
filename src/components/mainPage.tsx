@@ -1,6 +1,5 @@
 import { FC } from "react";
 import Image from "next/image";
-import Navbar from "../common/navbar/Navbar";
 
 const Main: FC = () => {
   return (
@@ -16,8 +15,8 @@ const Main: FC = () => {
         src="/main2.png"
         alt="coba"
         width={2500}
-        height={100}
-        className="absolute bottom-[180px] right-[10px]"
+        height={0}
+        className="absolute  md:bottom-[190px] sm:bottom-[140px] right-[0] "
       />
       <Image
         src="/main1.png"

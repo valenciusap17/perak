@@ -1,6 +1,5 @@
 import { FC } from "react";
 import Image from "next/image";
-import Navbar from "../common/navbar/Navbar";
 
 const Secondary: FC = () => {
   return (
